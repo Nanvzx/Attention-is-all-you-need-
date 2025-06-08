@@ -10,7 +10,7 @@ This repository contains a modular and educational PyTorch implementation of the
 
 ## Architecture Overview
 
-![Transformer arch](https://github.com/user-attachments/assets/f72c0f8c-df8b-446b-8f9b-0831e2ab8cc2)
+![Transformer arch](https://github.com/user-attachments/assets/f72c0f8c-df8b-446b-8f9b-0831e2ab8cc2) width="600"
 
 
 *(Image credit: The Illustrated Transformer - Jay Alammar)*
