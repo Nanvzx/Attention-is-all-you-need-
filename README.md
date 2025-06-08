@@ -10,7 +10,8 @@ This repository contains a modular and educational PyTorch implementation of the
 
 ## Architecture Overview
 
-<img src="https://jalammar.github.io/images/t/transformer_encoder_architecture.png" width="600">
+![Transformer arch](https://github.com/user-attachments/assets/f72c0f8c-df8b-446b-8f9b-0831e2ab8cc2)
+
 
 *(Image credit: The Illustrated Transformer - Jay Alammar)*
 
