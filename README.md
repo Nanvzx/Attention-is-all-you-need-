@@ -1,4 +1,4 @@
-# Transformer From Scratch
+![transformer_decoding_2](https://github.com/user-attachments/assets/2a7df209-1e9c-4236-8412-da6134238166)# Transformer From Scratch
 
 **Rebuilding *"Attention Is All You Need"* step by step**
 
@@ -58,15 +58,13 @@ This repository contains a modular and educational PyTorch implementation of the
 * Projects queries, keys, and values, then performs scaled dot-product attention.
 * Allows the model to focus on different parts of the sequence simultaneously.
 
-<img src="https://jalammar.github.io/images/t/transformer_multi-head-attention-recap.png" width="600">
+
+![Multihead Attention](https://github.com/user-attachments/assets/1137b259-476d-4e73-8b51-2076403e5400)
 
 ### 6️⃣ **Residual Connection Block**
 
 * Adds skip connections and layer normalization.
 * Helps preserve gradients in deep architectures.
-
-
-<img src="https://jalammar.github.io/images/t/transformer_decoder_residual_layer_norm.png" width="500">
 
 
 ### 7️⃣ **Encoder Block**
@@ -111,7 +109,8 @@ In addition to the **Encoder blocks**, this project also implements the full **T
 
 ## Transformer Decoder Block Diagram
 
-<img src="https://jalammar.github.io/images/t/transformer_decoder_block.png" width="500">
+
+![transformer_decoding_2](https://github.com/user-attachments/assets/a06e68c4-118b-4422-a2fd-cb0a3e7a41c2)
 
 *(Image credit: The Illustrated Transformer - Jay Alammar)*
 
@@ -119,7 +118,9 @@ In addition to the **Encoder blocks**, this project also implements the full **T
 ### Projection Layer
 
 * Projects decoder outputs to logits over the target vocabulary.
-<img src="https://jalammar.github.io/images/t/transformer_logit_softmax.png" width="400">
+
+![transformer_decoder_output_softmax](https://github.com/user-attachments/assets/06c49cc6-3f4e-4b9c-b129-325109254ab6)
+
 ---
 
 # Build Function
