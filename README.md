@@ -6,6 +6,7 @@ A complete from-scratch implementation of the Transformer architecture (Vaswani 
 This project aims to provide an **educational, minimal, and fully transparent codebase** that demystifies the core concepts of:
 
 * Scaled Dot-Product Attention
+   <img src="https://jalammar.github.io/images/t/transformer_attention_heads_qkv.png" width="600">
 * Multi-Head Attention
 * Positional Encoding
 * FeedForward Networks
@@ -39,7 +40,7 @@ This repository contains a modular and educational PyTorch implementation of the
 
 * Injects positional information using sine/cosine functions.
 * Makes the model aware of the sequence order.
-
+<img src="https://jalammar.github.io/images/t/transformer_positional_encoding_vectors.png" width="600">
 ### 3️⃣ **Layer Normalization**
 
 * Normalizes inputs across the feature dimension.
@@ -56,10 +57,14 @@ This repository contains a modular and educational PyTorch implementation of the
 * Projects queries, keys, and values, then performs scaled dot-product attention.
 * Allows the model to focus on different parts of the sequence simultaneously.
 
+  <img src="https://jalammar.github.io/images/t/transformer_multi-head-attention-recap.png" width="600">
+
 ### 6️⃣ **Residual Connection Block**
 
 * Adds skip connections and layer normalization.
 * Helps preserve gradients in deep architectures.
+
+  <img src="https://jalammar.github.io/images/t/transformer_decoder_residual_layer_norm.png" width="500">
 
 ### 7️⃣ **Encoder Block**
 
@@ -101,10 +106,17 @@ In addition to the **Encoder blocks**, this project also implements the full **T
 * Stack of multiple DecoderBlocks.
 * Final Layer Normalization applied.
 
+## Transformer Decoder Block Diagram
+
+<img src="https://jalammar.github.io/images/t/transformer_decoder_block.png" width="500">
+
+*(Image credit: The Illustrated Transformer - Jay Alammar)*
+
+
 ### Projection Layer
 
 * Projects decoder outputs to logits over the target vocabulary.
-
+<img src="https://jalammar.github.io/images/t/transformer_logit_softmax.png" width="400">
 ---
 
 # Build Function
