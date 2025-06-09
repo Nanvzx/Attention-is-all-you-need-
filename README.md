@@ -58,7 +58,7 @@ This repository contains a modular and educational PyTorch implementation of the
 * Projects queries, keys, and values, then performs scaled dot-product attention.
 * Allows the model to focus on different parts of the sequence simultaneously.
 
- <img src="https://jalammar.github.io/images/t/transformer_multi-head-attention-recap.png" width="600">
+<img src="https://jalammar.github.io/images/t/transformer_multi-head-attention-recap.png" width="600">
 
 ### 6️⃣ **Residual Connection Block**
 
