@@ -1,4 +1,4 @@
-![transformer_decoding_2](https://github.com/user-attachments/assets/2a7df209-1e9c-4236-8412-da6134238166)# Transformer From Scratch
+# Transformer From Scratch
 
 **Rebuilding *"Attention Is All You Need"* step by step**
 
